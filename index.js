@@ -6,7 +6,7 @@ require('dotenv').config()
 
 const app = express()
 
-app.use(express.static('public'))
+// app.use(express.static('public'))
 app.use(cors())
 app.use(express.json())
 
